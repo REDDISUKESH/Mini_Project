@@ -1,0 +1,55 @@
+/* Hero.css */
+
+.hero-carousel-container {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.button-container {
+  padding: 15px 50px;
+  background-color: #111111;
+  display: inline-block;
+  font-weight: 600; /* font-semibold equivalent */
+  color: white;
+  border-radius: 9999px; /* rounded-full equivalent */
+}
+
+.button-container:hover {
+  cursor: pointer;
+}
+
+.hero-container {
+  height: 87.5vh;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 80px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.heading {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.paragraph {
+  margin-top: 20px;
+}
+
+.button-container {
+  margin-top: 30px;
+}

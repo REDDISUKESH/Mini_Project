@@ -1,0 +1,88 @@
+.navbar-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    height: 30px;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar-links ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navbar-search input[type="search"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+  
+  .navbar-search button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .navbar-cart,
+  .navbar-signin {
+    margin-left: 10px; /* Adjusted margin */
+  }
+
+  .navbar-cart-signin{
+    display:flex;
+    justify-content: center;
+    margin-right:1%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-custom {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .navbar-links {
+      margin-top: 10px;
+    }
+    
+    .navbar-search {
+      order: 2;
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .navbar-cart,
+    .navbar-signin {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  
+  .navbar-links ul li.active a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  

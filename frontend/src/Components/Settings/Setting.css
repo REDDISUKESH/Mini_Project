@@ -1,0 +1,117 @@
+.setting {
+  display: flex;
+}
+
+.settingsWrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+.settingTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settingUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.settingDeleteTitle {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+  order: -1; /* Move delete button to the left */
+}
+
+.settingForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingPP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.settingImg {
+  width: 80px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.settingPPIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.settingForm > label {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.settingForm > input {
+  color: grey;
+  margin: 5px 0; /* Reduce the gap between inputs */
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.settingSubmit {
+  font-size: 20px;
+  width: 150px;
+  align-self: flex-start; /* Align buttons to the left */
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: teal;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px; /* Add margin to separate buttons */
+}
+
+.settingSubmit:disabled {
+  background-color: lightgray; /* Disable update button when not in update mode */
+}
+
+.settingSubmit + .settingSubmit {
+  margin-top: 5px; /* Add spacing between buttons */
+}
+
+.settingSubmit:last-of-type {
+  align-self: center; /* Center the logout button */
+}
+.settingDeleteTitle{
+  margin-left:10px;
+  width:50px;
+  height:30px;
+  border:2px solid black;
+  border-radius:5px;
+  border:none;
+  color:black;
+  background-color: red;
+  cursor:pointer;
+}
+.settingedit{
+  margin-left:10px;
+  width:70px;
+  height:30px;
+  cursor: pointer;
+  border:2px solid black;
+  background-color: green;
+  border-radius:5px;
+  border:none;
+}

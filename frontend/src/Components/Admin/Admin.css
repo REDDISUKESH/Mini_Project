@@ -1,0 +1,46 @@
+/* Accommodation.css */
+
+.write {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .writeImg {
+    width: 100%;
+    max-height: 200px;
+  }
+  
+  .writeForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .writeFormGroup {
+    margin-bottom: 10px;
+  }
+  
+  .writeInput, .writeText {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .writeSubmit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .writeSubmit:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,75 @@
+.home-ai-tshirt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease;
+}
+
+.slide-left {
+    animation: slideLeft 0.5s forwards;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-down {
+    animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.logo {
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+}
+
+.home-content-ai-tshirt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-text-ai-tshirt h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.line-break {
+    display: none;
+}
+
+@media (min-width: 1280px) {
+    .line-break {
+        display: block;
+    }
+}
+
+.content-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem; /* 20px */
+    max-width: 28rem; /* 448px */
+}
+
+.description {
+    font-size: 1rem;
+    color: #4a4a4a; /* text-gray-600 */
+    text-align: center;
+}

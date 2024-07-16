@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.navbar{
+  display:flex ;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  justify-content: space-around;
+  padding:8px;
+  box-shadow: 0 1px 3px -2px black;
+}
+.logo{
+  display: flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom: 10px; /* Add some margin at the bottom */
+}
+.nav-menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap:50px;
+  color:#626262;
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom: 10px; /* Add some margin at the bottom */
+}
+.link{
+  font-size:18px;
+  font-weight:200;
+}
+.topImg{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+
+}
+/* .nav-search{
+      width:200px;
+      height:auto;
+} */
+.nav-menu li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:3px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.nav-cart{
+  display:flex;
+  align-items: center;
+  gap:45px;
+  margin-bottom: 10px; /* Add some margin at the bottom */
+}
+.nav-login{
+  width:100px;
+  height:30px;
+}
+.nav-cart-icon{
+  width:35px;
+  height: 35px;
+}
+.nav-cart-count{
+  width:20px;
+  height:20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  margin-left: -55px;
+  border-radius: 11px;
+  font-size: 14px;
+  background: red;
+  columns: white;
+}
+.nav-search {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.search-bar {
+  flex: 1; /* Let the search bar take up remaining space */
+  max-width: 400px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button_1 {
+  margin-left: 10px; /* Adjust margin to your preference */
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color:black;
+  cursor:pointer;
+}
+
+.search-bar::placeholder {
+  color: #999;
+}
+.topItem{
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  padding:0.5em;
+  cursor: pointer;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .nav-menu, .nav-cart {
+      flex-basis: 100%; /* Make them take full width */
+  }
+}

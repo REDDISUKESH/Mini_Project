@@ -1,0 +1,211 @@
+/* Default styles */
+.top {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 3rem;
+  font-weight: medium;
+  line-height: 1;
+}
+
+.sub-top{
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  line-height: 1;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch; /* Align items to stretch vertically */
+  padding: 20px;
+}
+
+.product-container-card_1{
+  width: 100%;
+  max-width: 300px;
+  height: 100%; /* Set a fixed height for all product cards */
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex; /* Use flexbox for better alignment */
+  flex-direction: column; /* Stack child elements vertically */
+}
+
+.image-container-card_1{
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1 / 1.2;
+  border-radius: 8px 8px 0 0;
+}
+
+.product-image-card_1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+  border-bottom: 2px solid #ddd;
+ /*  background-color: whitesmoke; */
+}
+
+.product-container-card_1:hover .product-image-card {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+.info-container-card_1 {
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.product-name-card_1 {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  flex-grow: 1;
+}
+
+.product-price-card_1 {
+  font-size: 1.2rem;
+  color: #e44d26;
+  position: relative;
+}
+
+.discount-info {
+  color: #e44d26;
+  font-size: 0.8rem;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: red;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.discounted-price_1{
+  color: #388e3c;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.add-to-cart-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e44d26;
+  color: #fff;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #c53717;
+}
+
+/* Media query for screens below 660px */
+@media screen and (max-width: 660px) {
+  .grid-container {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+
+  .product-name-card {
+    font-size: 1.3rem;
+  }
+
+  .product-price-card {
+    font-size: 1rem;
+  }
+
+  .discounted-price {
+    font-size: 1.1rem;
+  }
+
+  .old-price {
+    font-size: 0.9rem;
+  }
+}
+
+/* Media query for screens below 500px */
+@media screen and (max-width: 500px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+  }
+
+  .product-name-card {
+    font-size: 1rem;
+  }
+
+  .product-price-card {
+    font-size: 0.7rem;
+  }
+
+  .discounted-price {
+    font-size: 1rem;
+  }
+
+  .old-price {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .product-rating {
+    display: inline-block;
+  }
+}
+
+/* Additional Styles */
+
+/* Style for product ratings */
+.product-rating {
+  margin-top: 5px;
+}
+
+/* Style for the container of product cards */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 320px) {
+  .product-name-card {
+    font-size: 0.9rem;
+  }
+
+  .product-price-card {
+    font-size: 0.6rem;
+  }
+
+  .discounted-price {
+    font-size: 0.8rem;
+  }
+
+  .old-price {
+    font-size: 0.7rem;
+  }
+}
