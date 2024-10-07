@@ -1,11 +1,8 @@
 # AR-Ecommerce
 
 ## Project Idea
-AR-Ecommerce is revolutionizing the e-commerce landscape with its cutting-edge features that redefine the online shopping experience. Leveraging 3D visualization through Google Model Viewer, users can interact with products from all angles, boosting understanding and confidence in purchase decisions. Augmented Reality (AR) capabilities take immersion further, allowing users to virtually place products in their space, minimizing uncertainty and enhancing satisfaction. 
+My project, AREcommerce, is a next-generation e-commerce platform designed to enhance user experience and purchasing decisions. We developed a feature that allows users to view products in a full 360-degree angle, providing a comprehensive and interactive visual of the item. Additionally, we've integrated augmented reality (AR) support, enabling users to see the product in their real environment through their device's camera. This innovative approach aims to bridge the gap between online and in-store shopping by offering a more realistic view of products, thus helping users make more informed purchasing decisions
 
-The platform’s standout feature is its 3D T-shirt designer, empowering users to customize their apparel with intuitive controls and real-time previews. Powered by OpenAI’s DALLE model, AR-Ecommerce generates lifelike images of user-designed T-shirts, ensuring accurate representations and bolstering confidence in personalized creations.
-
-Security is paramount with seamless authentication via Clerk SDK, enhancing trust and facilitating smooth login experiences. Integrated Stripe payment processing guarantees secure transactions, catering to diverse payment preferences and enhancing overall convenience. With AR-Ecommerce, users embark on a journey of unparalleled engagement and personalization, transforming the way they shop online.
 
 ## Features
 - **3D Visualization with Google Model Viewer**
@@ -20,14 +17,6 @@ Security is paramount with seamless authentication via Clerk SDK, enhancing trus
   - Customizable apparel with real-time previews
   - Generates lifelike images of user-designed T-shirts
 
-- **Seamless Authentication with Clerk SDK**
-  - Secure and smooth login experiences
-  - Enhances user trust
-
-- **Secure Payment Processing with Stripe**
-  - Ensures secure transactions
-  - Accommodates various payment preferences
-
 ## Technologies Used
 - **Frontend:**
   - React.js
@@ -37,20 +26,26 @@ Security is paramount with seamless authentication via Clerk SDK, enhancing trus
   - Express.js
 - **Database:**
   - MongoDB
-- **Authentication:**
-  - Clerk SDK
-- **Payment Processing:**
-  - Stripe
 - **AI Model:**
   - OpenAI’s DALLE Model
 - **AR:**
   - AR capabilities for virtual product placement
 
 ## Getting Started
+Once User has login to the website successfully able to see that Home Page of the website|
+### Functionalities
+### Home Page
 
-### Prerequisites
-- Node.js
-- npm (Node Package Manager)
-- MongoDB
-- Clerk Account
-- Stripe Account
+![Screenshot 2024-10-08 000606](https://github.com/user-attachments/assets/f9b2931b-b8d0-485b-9359-7388054493ce)
+### Category Section
+![Screenshot 2024-10-08 000630](https://github.com/user-attachments/assets/9fb925f0-875b-460a-80d0-6ab682ae8c7e)
+### Categorywise Products
+![Screenshot 2024-10-08 000656](https://github.com/user-attachments/assets/da60c623-9168-476e-91aa-0bbe41b8696e)
+
+### Single Product Display
+
+![Screenshot 2024-10-08 000727](https://github.com/user-attachments/assets/7b86ab1b-31f6-4204-9452-56a5d8774bc6)
+
+### Add to Cart
+![Screenshot 2024-10-08 000816](https://github.com/user-attachments/assets/6723bc81-0236-4657-9476-36f1cb88c47a)
+
