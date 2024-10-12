@@ -1,8 +1,19 @@
 # AR-Ecommerce
 
-## Project Idea
-My project, AREcommerce, is a next-generation e-commerce platform designed to enhance user experience and purchasing decisions. We developed a feature that allows users to view products in a full 360-degree angle, providing a comprehensive and interactive visual of the item. Additionally, we've integrated augmented reality (AR) support, enabling users to see the product in their real environment through their device's camera. This innovative approach aims to bridge the gap between online and in-store shopping by offering a more realistic view of products, thus helping users make more informed purchasing decisions
+➤ 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄:
+I worked on AREcommerce, an innovative e-commerce platform designed to enhance user experience by allowing customers to interact with products in a 360-degree view and experience them in augmented reality (AR). The goal was to bridge the gap between online and in-store shopping, helping users make more informed purchasing decisions.
 
+➤ 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝗦𝘁𝗮𝘁𝗲𝗺𝗲𝗻𝘁:
+One major problem in online shopping is the lack of physical interaction with products, which often results in uncertainty about product size, appearance, or functionality. This leads to high return rates and lower customer satisfaction, as users can't fully visualize products in their environment.
+
+➤ 𝗣𝗿𝗼𝗽𝗼𝘀𝗲𝗱 𝗦𝗼𝗹𝘂𝘁𝗶𝗼𝗻:
+We developed a feature that allows users to view products in a 360-degree angle and integrated AR support so users can visualize how the product would look in their real environment using their device’s camera. This helps customers get a more realistic view of the item, making their shopping experience more immersive and informed.
+
+➤  MY 𝗥𝗼𝗹𝗲:
+I was responsible for the full-stack development of the platform, focusing on integrating the 360-degree product view and AR functionalities. I worked on implementing Google Model Viewer for the 3D visualization and AR support, and ensured seamless integration with the Stripe payment system for a smooth checkout process. One challenge I faced was optimizing the rendering performance of 3D models for different device types, which I overcame by implementing lazy loading and asset optimization techniques.
+
+➤ 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗮𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁:
+Working on the AREcommerce project helped me grow significantly as a developer. I gained a deeper understanding of 3D rendering and AR technologies, especially how to optimize complex models for various devices without sacrificing performance. I also learned how to manage real-time interactions between users and virtual content, which expanded my knowledge of user experience design for immersive applications.
 
 ## Features
 - **3D Visualization with Google Model Viewer**
