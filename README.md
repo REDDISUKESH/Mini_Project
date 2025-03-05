@@ -41,6 +41,7 @@ Working on the AREcommerce project helped me grow significantly as a developer. 
   - OpenAI’s DALLE Model
 - **AR:**
   - AR capabilities for virtual product placement
+  - https://drive.google.com/file/d/1evSVKEID-XmsOe1FgObsr7kZM1ZLGHMX/view?usp=sharing
 
 ## Getting Started
 Once User has login to the website successfully able to see that Home Page of the website
